@@ -398,9 +398,9 @@ body::after {
   background:
     linear-gradient(
       175deg,
-      rgba(42, 37, 32, 0.6) 0%,
+      rgba(42, 37, 32, 0.3) 0%,
       rgba(42, 37, 32, 0.1) 42%,
-      rgba(42, 37, 32, 0.75) 100%
+      rgba(42, 37, 32, 0.6) 100%
     ),
     radial-gradient(
       ellipse at 30% 80%,

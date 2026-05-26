@@ -412,10 +412,12 @@ body::after {
 .filter.active { background: var(--gold); color: #fff; border-color: var(--gold) }
 .filter.active i { color: rgba(255,255,255,.55) }
 .filter:hover:not(.active) { border-color: var(--gold); color: var(--ink) }
-
+#machines .wrap{
+  max-width: 1400px;
+}
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 22px;
 }
 @media (max-width: 1024px) { .product-grid { grid-template-columns: repeat(2, 1fr) } }
@@ -455,7 +457,7 @@ body::after {
   border-radius: 100px;
 }
 
-.product__body { padding: 24px }
+.product__body { padding: 18px }
 .product__body h3 {
   font-family: var(--serif); font-size: 22px;
   font-weight: 500; margin-bottom: 8px;
