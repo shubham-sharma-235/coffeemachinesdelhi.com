@@ -2760,6 +2760,9 @@ form#contactForm {
   }
 } 
 @media(max-width:450px){
+  .trust-grid{
+    grid-template-columns: 1fr 1fr;
+  }
   .trust-grid h3{
     display: none;
   }
@@ -2775,7 +2778,7 @@ form#contactForm {
     background: var(--w); 
     border: none; 
     border-radius: none; 
-    padding: 20px 22px; 
+    padding: 12px 12px; 
   }
   .trust-grid  .tg-ico {
     width: 134px;
