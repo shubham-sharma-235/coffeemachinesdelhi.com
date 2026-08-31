@@ -637,7 +637,7 @@ body::after {
 /* ═══════════════════════════════════════════
    CLIENTS
    ═══════════════════════════════════════════ */
-.clients-section { overflow: hidden; padding-bottom: 1rem!important;}
+.clients-section { overflow: hidden; }
 .logo-marquee {
   margin-top: 12px;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
